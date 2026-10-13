@@ -1,6 +1,6 @@
 from time import sleep
 #import io_comp as io
-import io pico as io
+import io_pico as io
 
 teller1 = 0
 teller2 = 0
