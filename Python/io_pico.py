@@ -7,6 +7,12 @@ _drukknop1 = Pin(8, Pin.IN)
 _drukknop2 = Pin(7, Pin.IN)
 _drukknop3 = Pin(6, Pin.IN)
 
+_relais_01 = Pin(28, Pin.OUT)
+_relais_02 = Pin(27, Pin.OUT)
+_relais_03 = Pin(26, Pin.OUT)
+_relais_04 = Pin(21, Pin.OUT)
+_relais_05 = Pin(17, Pin.OUT)
+
 
 def invoer(knopnummer: int) -> bool:
     """We vragen of een drukknop is ingedrukt. returns True wanneer ingedrukt, False als deze niet is ingedrukt
