@@ -1,7 +1,7 @@
 from machine import Pin
 from time import sleep
 
-sleep(2)
+sleep(.2)
 
 _drukknop1 = Pin(8, Pin.IN)
 _drukknop2 = Pin(7, Pin.IN)

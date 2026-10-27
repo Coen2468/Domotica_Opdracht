@@ -9,7 +9,7 @@ teller3 = 0
 def taakl():
     print("taakl")
     io.lampl(True)
-    if (tellerl % 3) -- 0:
+    if (tellerl % 3) == 0:
         return
     
     io.lamp2(True)

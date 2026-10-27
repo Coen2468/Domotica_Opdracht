@@ -1,3 +1,5 @@
-import io_pico
+from time import sleep
 
-io_pico.test_buttons()
+#import io_comp as io
+
+import io_pico as io
