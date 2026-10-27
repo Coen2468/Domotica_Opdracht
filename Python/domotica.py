@@ -22,7 +22,7 @@ def taak2():
     if (teller2 % 2) == 0:
         io.wcd2(True)
 
-def taak3 ():
+def taak3():
     print("taak3")
     io.lampl(False)
     io.lamp2(False)
