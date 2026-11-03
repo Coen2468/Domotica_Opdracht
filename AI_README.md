@@ -9,15 +9,15 @@ Een domotica-besturing met een **Raspberry Pi Pico**, drie drukknoppen en vijf r
 
 ## Inhoud
 
-- [1. Projectbeschrijving](##-1.-Projectbeschrijving)
-- [2. Werking van het programma](##-2-werking-van-het-programma)
-- [3. Benodigde componenten](##-3-benodigde-componenten)
-- [4. Aansluitingen](##-4-aansluitingen)
-- [5. Foto's van de opstelling](##-5-fotos-van-de-opstelling)
-- [6. Flowchart](##-6-flowchart)
-- [7. Python-bestanden](##-7-python-bestanden)
-- [8. Veiligheid](##-8-veiligheid)
-- [9. Conclusie](##-9-conclusie)
+- [1. Projectbeschrijving](#1-projectbeschrijving)
+- [2. Werking van het programma](#2-werking-van-het-programma)
+- [3. Benodigde componenten](#3-benodigde-componenten)
+- [4. Aansluitingen](#4-aansluitingen)
+- [5. Foto's van de opstelling](#5-fotos-van-de-opstelling)
+- [6. Flowchart](#6-flowchart)
+- [7. Python-bestanden](#7-python-bestanden)
+- [8. Veiligheid](#8-veiligheid)
+- [9. Conclusie](#9-conclusie)
 
 ## 1. Projectbeschrijving
 
