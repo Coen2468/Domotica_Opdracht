@@ -2,7 +2,8 @@
 
 Een domotica-besturing met een **Raspberry Pi Pico**, drie drukknoppen en vijf relais. Met de knoppen worden drie lampen en twee wandcontactdozen (WCD's) aangestuurd.
 
-![Wokwi-opstelling](Images/Wokwi/Wokwi-opstelling.png)
+<img width="831" height="508" alt="Schermafbeelding 2026-11-03 101705" src="https://github.com/user-attachments/assets/2370d6de-9475-465c-b15b-d720ec36a10d" />
+
 
 ---
 
@@ -30,9 +31,9 @@ De relais stellen in dit project twee wandcontactdozen en drie lampen voor:
 - Lamp 2
 - Lamp 3
 
-**Maker:** `[vul je naam in]`  
-**Klas:** `[vul je klas in]`  
-**Datum:** `[vul de datum in]`
+**Maker:** `Nathan Spoor en Coen Welschen`  
+**Klas:** `LPEMO24K4`  
+**Datum:** `3-11-2026`
 
 ## 2. Werking van het programma
 
