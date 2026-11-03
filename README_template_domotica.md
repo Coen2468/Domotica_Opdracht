@@ -7,7 +7,7 @@
 
 ------------------------------------------------------------------------
 
-## 📑 Inhoud
+## Inhoud
 
 -   [1. Over het project](#-1-over-het-project)
 -   [2. Hoe werkt het?](#-2-hoe-werkt-het)
@@ -18,7 +18,7 @@
 -   [7. Programmacode](#-7-programmacode)
 -   [8. Conclusie](#-8-conclusie)
 
-## 💡 1. Over het project
+## 1. Over het project
 
 **Naam:** Domotica met Raspberry Pi Pico\
 **Maker:** `[vul je naam in]`\
@@ -30,7 +30,7 @@
 Beschrijf hier in een paar zinnen wat je hebt gebouwd en wat het doel
 van de opdracht is.
 
-## ⚙️ 2. Hoe werkt het?
+## 2. Hoe werkt het?
 
 Beschrijf hier stap voor stap wat de code doet.
 
@@ -53,7 +53,7 @@ Beschrijf hier stap voor stap wat de code doet.
   Relais 4         `[beschrijf wat het schakelt]`
   Relais 5         `[beschrijf wat het schakelt]`
 
-## 🧰 3. Benodigdheden
+## 3. Benodigdheden
 
   ------------------------------------------------------------------------------------
   Component                       Aantal Waarvoor gebruik   Link
@@ -78,7 +78,7 @@ Beschrijf hier stap voor stap wat de code doet.
 
 *Voeg eventueel per component een foto toe in de map `afbeeldingen`.*
 
-## 🔌 4. Aansluitschema
+## 4. Aansluitschema
 
 Plaats hier de Wokwi-afbeelding:
 
@@ -97,20 +97,14 @@ Plaats hier de Wokwi-afbeelding:
   Relais 4      `[GPIO-nummer]`
   Relais 5      `[GPIO-nummer]`
 
-## 📸 5. Foto's
+## 5. Foto's
 
 ### Simulatie in Wokwi
 
 ![Wokwi-simulatie](afbeeldingen/wokwi-opstelling.png)
 
-### Echte opstelling
 
-Maak een foto van je eigen gebouwde schakeling en sla deze op als
-`echte-opstelling.jpg` in de map `afbeeldingen`.
-
-![Echte opstelling](afbeeldingen/echte-opstelling.jpg)
-
-## 🔄 6. Flowchart
+## 6. Flowchart
 
 Plaats hieronder je flowchart. Je kunt bijvoorbeeld een afbeelding
 gebruiken:
@@ -134,7 +128,7 @@ flowchart TD
 **Let op:** pas de flowchart aan zodat deze overeenkomt met jouw eigen
 programmacode.
 
-## 💻 7. Programmacode
+## 7. Programmacode
 
 De code staat in het bestand `main.py`.
 
@@ -142,14 +136,14 @@ Beschrijf hier eventueel belangrijke onderdelen van je code, zoals: -
 Welke GPIO-pinnen je gebruikt. - Hoe je de drukknoppen uitleest. - Hoe
 je de relais aan- en uitschakelt.
 
-## ✅ 8. Conclusie
+## 8. Conclusie
 
 Beschrijf kort: - Wat werkt er goed? - Wat vond je lastig? - Wat heb je
 geleerd? - Wat zou je de volgende keer verbeteren?
 
 ------------------------------------------------------------------------
 
-## 📁 Bestandsindeling
+## Bestandsindeling
 
 Zorg dat je GitHub-project er ongeveer zo uitziet:
 
