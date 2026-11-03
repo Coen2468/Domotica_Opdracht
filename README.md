@@ -1,4 +1,13 @@
 # Domotica opdracht
+
+## Werking van de code
+We zetten door middel van code WCD's aan met knoppen, die op hun beurt weer lampen aan zetten.
+
+### Hoe het werkt:
+Wanneer de Pico opstart stelt hij de waarden in op 0.
+
+Daarna controleert de Pico welke knop wordt ingedrukt en bepaalt op basis hiervan welke relais hij in moet schakelen.
+
 ## Flowchart van de code
 <img width="463" height="133" alt="Eerste foto van de flowchart" src="https://github.com/user-attachments/assets/e7d5935b-e275-4a28-b10b-3c43f2467e64" />
 <img width="470" height="172" alt="Tweede foto van de flowchart" src="https://github.com/user-attachments/assets/05224cd2-be3f-4cb4-a065-2573aa626e03" />
