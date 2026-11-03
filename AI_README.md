@@ -13,11 +13,10 @@ Een domotica-besturing met een **Raspberry Pi Pico**, drie drukknoppen en vijf r
 - [2. Werking van het programma](#2-werking-van-het-programma)
 - [3. Benodigde componenten](#3-benodigde-componenten)
 - [4. Aansluitingen](#4-aansluitingen)
-- [5. Foto's van de opstelling](#5-fotos-van-de-opstelling)
-- [6. Flowchart](#6-flowchart)
-- [7. Python-bestanden](#7-python-bestanden)
-- [8. Veiligheid](#8-veiligheid)
-- [9. Conclusie](#9-conclusie)
+- [5. Flowchart](#5-flowchart)
+- [6. Python-bestanden](#6-python-bestanden)
+- [7. Veiligheid](#7-veiligheid)
+- [8. Conclusie](#8-conclusie)
 
 ## 1. Projectbeschrijving
 
@@ -117,15 +116,7 @@ De onderstaande tabel is overgenomen uit het Wokwi-schema en `io_pico.py`.
 
 De drie weerstanden zijn in het Wokwi-diagram ingesteld op **10.000 Ω (10 kΩ)**. In de bedrading zijn de drukknoppen verbonden met VBUS en de GPIO-ingangen; de weerstanden zijn met GND verbonden.
 
-## 5. Foto's van de opstelling
-
-### Wokwi-simulatie
-
-Dit is de digitale schakeling met de Raspberry Pi Pico, drie drukknoppen en vijf relaismodules.
-
-![Wokwi-simulatie](Images/Wokwi/Wokwi-opstelling.png)
-
-## 6. Flowchart
+## 5. Flowchart
 
 De eerste flowchart laat zien hoe het hoofdprogramma de knoppen uitleest en de juiste taak start.
 
@@ -135,7 +126,7 @@ De tweede flowchart laat zien wat de drie taken doen.
 
 ![Flowchart van taak 1, taak 2 en taak 3](Images/Flowchart/Flowchart2.png)
 
-## 7. Python-bestanden
+## 6. Python-bestanden
 
 De Python-code staat in de map `Python`.
 
@@ -156,7 +147,7 @@ Er zijn twee punten om te controleren voordat de volledige domotica-besturing we
 
 Controleer en verbeter deze namen voordat je de taakbesturing uitvoert. De flowcharts beschrijven de bedoelde taakwerking.
 
-## 8. Veiligheid
+## 7. Veiligheid
 
 - Gebruik de Raspberry Pi Pico alleen met de juiste voedingsspanning.
 - Controleer of de relaismodules geschikt zijn voor de gebruikte aansturing en voeding.
@@ -164,7 +155,7 @@ Controleer en verbeter deze namen voordat je de taakbesturing uitvoert. De flowc
 - Werk voor tests bij voorkeur met veilige laagspanning.
 - Laat eventuele aansluitingen op 230 V uitvoeren of controleren door een deskundige.
 
-## 9. Conclusie
+## 8. Conclusie
 
 In deze opdracht wordt een domotica-schakeling gemaakt met een Raspberry Pi Pico. Drie drukknoppen geven opdrachten aan de Pico. De Pico stuurt vervolgens vijf relais aan die twee WCD's en drie lampen voorstellen.
 
