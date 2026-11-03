@@ -62,15 +62,13 @@ De Pico controleert voortdurend de drie drukknoppen. Zodra een knop wordt ingedr
 1. Lamp 1, Lamp 2 en Lamp 3 worden uitgeschakeld.
 2. Als teller 3 even is, worden WCD 1 en WCD 2 uitgeschakeld.
 
-> Deze uitleg beschrijft de bedoelde werking zoals die in de flowcharts en functies is uitgewerkt. Zie de codecontrole bij [Python-bestanden](#-7-python-bestanden): in de huidige bestanden staan een paar naamfouten die eerst moeten worden opgelost voordat `domotica.py` precies zo kan werken.
-
 ## 3. Benodigde componenten
 
 | Component | Aantal | Gebruik |
 |---|---:|---|
 | Raspberry Pi Pico | 1 | Leest de knoppen en stuurt de relais aan |
 | Drukknop (rood, geel, blauw) | 3 | Geeft opdrachten aan de Pico |
-| Weerstand van 1 kΩ | 3 | Weerstanden in de Wokwi-schakeling |
+| Weerstand van 10 kΩ | 3 | Weerstanden in de Wokwi-schakeling |
 | Relaismodule | 5 | Schakelt de twee WCD's en drie lampen |
 | Jumperdraden | Meerdere | Maken de elektrische verbindingen |
 
@@ -86,14 +84,12 @@ De Pico controleert voortdurend de drie drukknoppen. Zodra een knop wordt ingedr
 
 **Raspberry Pi Pico en relaismodules**
 
-Deze onderdelen zijn zichtbaar op de Wokwi-opstelling bovenaan deze README. Voeg eventueel eigen foto's van de losse onderdelen toe aan de map `Images`.
-
 ### Waar kun je de onderdelen kopen?
 
 De onderdelen zijn verkrijgbaar bij elektronicawinkels en webshops, bijvoorbeeld:
 
 - [Kiwi Electronics](https://www.kiwi-electronics.com/) – zoek op *Raspberry Pi Pico*, *jumper wires* of *relaismodule*.
-- [TinyTronics](https://www.tinytronics.nl/) – zoek op *drukknop*, *weerstand 1 kΩ* of *relaismodule*.
+- [TinyTronics](https://www.tinytronics.nl/) – zoek op *drukknop*, *weerstand 10 kΩ* of *relaismodule*.
 
 Controleer bij het bestellen altijd de juiste weerstandwaarde, voedingsspanning en compatibiliteit van de relaismodule met de Raspberry Pi Pico.
 
@@ -119,7 +115,7 @@ De onderstaande tabel is overgenomen uit het Wokwi-schema en `io_pico.py`.
 | Relais 4 | Lamp 2 | GP21 |
 | Relais 5 | Lamp 3 | GP17 |
 
-De drie weerstanden zijn in het Wokwi-diagram ingesteld op **1.000 Ω (1 kΩ)**. In de bedrading zijn de drukknoppen verbonden met VBUS en de GPIO-ingangen; de weerstanden zijn met GND verbonden.
+De drie weerstanden zijn in het Wokwi-diagram ingesteld op **10.000 Ω (10 kΩ)**. In de bedrading zijn de drukknoppen verbonden met VBUS en de GPIO-ingangen; de weerstanden zijn met GND verbonden.
 
 ## 5. Foto's van de opstelling
 
@@ -128,14 +124,6 @@ De drie weerstanden zijn in het Wokwi-diagram ingesteld op **1.000 Ω (1 kΩ)**.
 Dit is de digitale schakeling met de Raspberry Pi Pico, drie drukknoppen en vijf relaismodules.
 
 ![Wokwi-simulatie](Images/Wokwi/Wokwi-opstelling.png)
-
-### Echte opstelling
-
-Voeg hier een foto toe van de fysieke schakeling die je zelf hebt opgebouwd. Sla de foto op in de map `Images/Wokwi` met de naam `Echte-opstelling.jpg`.
-
-![Echte domotica-opstelling](Images/Wokwi/Echte-opstelling.jpg)
-
-*De foto van de echte opstelling moet nog worden toegevoegd.*
 
 ## 6. Flowchart
 
@@ -182,7 +170,6 @@ In deze opdracht wordt een domotica-schakeling gemaakt met een Raspberry Pi Pico
 
 Door de schakeling in Wokwi te simuleren en de code in verschillende bestanden op te delen, is te zien hoe invoer, programmalogica en hardware samenwerken.
 
-**Wat heb ik geleerd?** `[Vul hier in wat je tijdens deze opdracht hebt geleerd en wat je eventueel de volgende keer zou verbeteren.]`
 
 ---
 
